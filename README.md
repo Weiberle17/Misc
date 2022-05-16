@@ -1,2 +1,2 @@
 # Misc
-Miscellaneous programs I erote or 
+Miscellaneous programs I wrote
