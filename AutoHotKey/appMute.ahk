@@ -13,6 +13,7 @@ F19::
 AppVol("firefox.exe")
 AppVol("discord.exe")
 AppVol("spotify.exe")
+AppVol("steamwebhelper.exe")
 Return
 
 AppVol(App)
