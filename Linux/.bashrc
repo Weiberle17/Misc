@@ -130,3 +130,9 @@ sudo() {
   fi
 }
 
+if [ "$TERM" != "linux" ]; then
+    source ~/pureline/pureline ~/.pureline.conf
+fi
+
+export LC_ALL=C.UTF-8
+export LANG=c.UTF-8
