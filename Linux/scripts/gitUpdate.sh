@@ -1,0 +1,10 @@
+cd ~/git/Misc/
+git pull
+cd ~/git/Java/
+git pull
+cd ~/git/PHP/
+git pull
+cd ~/git/SQL/
+git pull
+cd ~/git/Website/
+git pull
