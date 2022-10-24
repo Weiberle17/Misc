@@ -6,9 +6,9 @@ $directory\
 [](fg:#434C5E bg:#4C566A)\
 $git_branch\
 $git_status\
-[](fg:#4C566A bg:#33658A)\
+[](fg:#4C566A bg:#5e81ac)\
 $time\
-[ ](fg:#33658A)\
+[ ](fg:#5e81ac)\
 """
 command_timeout = 5000
 # Disable the blank line at the start of the prompt
@@ -57,5 +57,5 @@ format = '[$all_status$ahead_behind ]($style)'
 [time]
 disabled = false
 time_format = "%R" # Hour:Minute Format
-style = "bg:#33658A"
+style = "bg:#5e81ac"
 format = '[ $time ]($style)'
