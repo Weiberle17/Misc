@@ -137,4 +137,7 @@ fi
 export LC_ALL=C.UTF-8
 export LANG=c.UTF-8
 
+# Source autojump to work properly
+. /usr/share/autojump/autojump.sh
+
 neofetch
