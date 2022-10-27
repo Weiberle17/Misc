@@ -130,6 +130,8 @@ sudo() {
   fi
 }
 
+# Export to support all
+export PATH="/home/weiberle/.local/bin:$PATH"
 export LC_ALL=C.UTF-8
 export LANG=c.UTF-8
 
