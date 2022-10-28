@@ -21,7 +21,7 @@ alias ....="cd ../../.."
 alias .....="cd ../../../.."
 
 # Go to old Directory
-alias bd="cd '$OLDPWD'"
+alias bd='cd -'
 
 # Xampp Shortcuts
 alias xamppControl="sudo /opt/lampp/lampp"
