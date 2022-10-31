@@ -8,3 +8,5 @@ cd ~/git/SQL/
 git pull
 cd ~/git/Website/
 git pull
+cd ~/git/nvim.conf/
+git pull
