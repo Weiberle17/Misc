@@ -141,4 +141,6 @@ export LANG=C.UTF-8
 # Starship setup
 eval "$(starship init bash)"
 
+. "$HOME/.cargo/env"
+
 neofetch
