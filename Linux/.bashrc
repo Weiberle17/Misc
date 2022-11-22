@@ -135,6 +135,9 @@ export PATH="/home/weiberle/.local/bin:$PATH"
 export LC_ALL=C.UTF-8
 export LANG=C.UTF-8
 
+# Set keyboard layout
+setxkbmap -layout us -variant intl
+
 # Source autojump to work properly
 . /usr/share/autojump/autojump.sh
 
