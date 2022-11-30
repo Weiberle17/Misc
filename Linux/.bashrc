@@ -136,14 +136,14 @@ export LC_ALL=C.UTF-8
 export LANG=C.UTF-8
 
 # Set keyboard layout
-setxkbmap -layout us -variant intl
+setxkbmap eu
 
 # Source autojump to work properly
 . /usr/share/autojump/autojump.sh
 
+. "$HOME/.cargo/env"
+
 # Starship setup
 eval "$(starship init bash)"
-
-. "$HOME/.cargo/env"
 
 neofetch
