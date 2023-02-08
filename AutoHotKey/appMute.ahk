@@ -1,13 +1,4 @@
-﻿
-; Version: 2022.07.01.1
-; https://gist.github.com/b251cd8407a379d4965791585887cfce
-
-/* ;region Example
-
-NumpadAdd::AppVol("Spotify.exe", +5)
-NumpadSub::AppVol("Spotify.exe", -5)
-
-*/ ;endregion
+﻿; TODO: Rewrite so it sets everything to 0 or 100
 
 F19::
 AppVol("firefox.exe")
@@ -43,8 +34,6 @@ AppVol(App)
 			}
 		}
 }
-
-; TODO: Rewrite this!
 
 ; Tweaked versions of:
 ; https://www.autohotkey.com/boards/viewtopic.php?p=210545#p210545
